@@ -1,0 +1,15 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^.*\.csv$
+^.*\.xlsx$
+^.*\.sh$
+^tests$
+^data-raw$
+^\.Rprofile$
+^README.*$
+^./caffsim\.pdf$
+^assets$
+^Makefile$
+^docs$
+^releases$
+^references$

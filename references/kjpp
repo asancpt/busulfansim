@@ -1,0 +1,207 @@
+	
+Korean J Physiol Pharmacol. 2012 Aug;16(4):273-280. English.
+Published online August 10, 2012.  https://doi.org/10.4196/kjpp.2012.16.4.273 
+Copyright © 2012 The Korean Physiological Society and The Korean Society of Pharmacology
+A Simple Dosing Scheme for Intravenous Busulfan Based on Retrospective Population Pharmacokinetic Analysis in Korean Patients
+Sangmin Choe,1,2 Gayeong Kim,1,3 Hyeong-Seok Lim,1 Sang-Heon Cho,1,4 Jong-Lyul Ghim,1,5 Jin Ah Jung,1,6 Un-Jib Kim,1 Gyujeong Noh,1 Kyun-Seop Bae,1 and Dongho Lee1
+1Department of Clinical Pharmacology & Therapeutics, University of Ulsan College of Medicine, Asan Medical Center, Seoul 138-736, Korea.
+2Division of Clinical Pharmacology, Clinical Trials Center, Pusan National University Hospital, Busan 602-739, Korea.
+3Institute of Metabolism, Green Cross Laboratories, Yongin 446-850, Korea.
+4Department of Clinical Pharmacology and Therapeutics, Seoul National University College of Medicine and Hospital, Seoul 110-744, Korea.
+5Department of Clinical Pharmacology, Inje University Busan Paik Hospital, Busan 614-735, Korea.
+6Department of Clinical Pharmacology and Therapeutics, Samsung Medical Center, Seoul 135-710, Korea.
+
+ Corresponding to: Kyun-Seop Bae, Department of Clinical Pharmacology & Therapeutics, University of Ulsan College of Medicine, Asan Medical Center, 88 Olyimpic-ro 43-gil, Songpa-gu, Seoul 138-736, Korea. (Tel) 82-2-3010-4611, (Fax) 82-2-3010-4623, Email: ksbae@amc.seoul.kr 
+Received May 12, 2012; Revised June 27, 2012; Accepted July 06, 2012.
+
+This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/licenses/by-nc/3.0) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.
+
+
+ This article has been cited by 1 article in  KoMCI.
+ This article has been cited by 2 articles in PubMed Central.
+ This article has been cited by Google Scholar.
+
+
+Go to:
+Abstract
+
+Busulfan is an antineoplastic agent with a narrow therapeutic window. A post-hoc population pharmacokinetic analysis of a prospective randomized trial for comparison of four-times daily versus once-daily intravenous busulfan was carried out to search for predictive factors of intravenous busulfan (iBu) pharmacokinetics (PK). In this study the population PK of iBu was characterized to provide suitable dosing recommendations. Patients were randomized to receive iBu, either as 0.8 mg/kg every 6 h or 3.2 mg/kg daily over 4 days prior to hematopoietic stem cell transplantation. In total, 295 busulfan concentrations were analyzed with NONMEM. Actual body weight and sex were significant covariates affecting the PK of iBu. Sixty patients were included in the study (all Korean; 23 women, 37 men; mean [SD] age, 36.5 [10.9] years; weight, 66.5 [11.3] kg). Population estimates for a typical patient weighing 65 kg were: clearance (CL) 7.6 l/h and volume of distribution (Vd) 32.2 l for men and 29.1 L for women. Inter-individual random variabilities of CL and Vd were 16% and 9%. Based on a CL estimate from the final PK model, a simple dosage scheme to achieve the target AUC0-inf (defined as median AUC0-inf with a once-daily dosage) of 26.18 mg/l·hr, was proposed: 24.79·ABW0.5 mg q24h, where ABW represents the actual body weight in kilograms. The dosing scheme reduced the unexplained interindividual variabilities of CL and Vd of iBu with ABW being a significant covariate affecting clearance of iBU. We propose a new simple dosing scheme for iBu based only on ABW.
+
+Keywords: Dosage scheme; Intravenous busulfan; Population pharmacokinetics
+
+Go to:
+INTRODUCTION
+Hematopoietic stem cell transplantation (HCT) is an important therapeutic modality for a number of malignant and non-malignant diseases. Busulfan is a chemotherapeutic regimen used to ablate bone marrow prior to autologous or allogenic hematopoietic stem cell transplantation in combination with other cytotoxic drugs, such as cyclophosphamide. The drug is a bifunctional alkylating agent characterized by highly variable absorption with its bioavailability ranging from to 44 to 94% following oral administration [1]. Busulfan is mainly eliminated via glutathione-S-transferase activity, while 2% of the unchanged drug is excreted in urine [2, 3]. Moreover, busulfan has a relatively narrow therapeutic window. Following the administration of busulfan, an area under concentration versus time curve from 0 to 6 h (AUC0-6) lower than 900 mol/l·min is associated with engraftment failure [4, 5], while AUC0-6 higher than 1,500 µmol/l·min results in hepatic veno-occlusive disease (VOD), seizures, as well as other significant toxicities [6, 7]. Until the approval of an intravenous busulfan formula [8], busulfan has been available only as an oral formulation. Inter- and intra-individual vairabilities after treatment with oral busulfan may be linked to erratic intestinal absorption, variable hepatic metabolism, circadian rhythm, genetics, diagnosis, drug-drug interactions and age [9-11]. Intravenous formulation of busulfan is expected to minimize the variations in inter- and intra-individual systemic exposure and provide improved dose assurance.
+
+This pharmacokinetic study is part of a previously published prospective randomized trial of 4 times daily versus once-daily dosing of iBu in patients with hematologic malignancies receiving conditioning therapy for HCT [12]. Our main aim is to characterize the population pharmacokinetics of iBu, and establish a novel dosage scheme which might offer a more precise AUC targeting.
+
+Go to:
+METHODS
+Patients and study design
+
+We enrolled 60 patients with hematologic malignancies subjected to stem cell therapy. Patients were at least 15 years old, displayed adequate cardiac, hepatic and renal functions, and Karnofsky performance scores [13] of 70 or higher. Patient characteristics are presented in Table 1.
+
+ 
+Table 1 
+Patient characteristics
+Click for larger image
+
+Subjects received 3.2 mg/kg/day iBu following either of two treatment regimens, specifically, 4 times daily iBu×4 days (BU4 arm) or once-daily iBu×4 days (BU1 arm) as conditioning therapy for stem cell transplantation. Patients were randomly assigned to the two treatment groups of 30 each. Block randomization method was employed, including stratification according to the conditioning regimen (busulfan-cyclophosphamide [BuCy] versus busulfan-fludarabine-antithymocyte globulin [BuFluATG] versus busulfan only [Bu]). Randomization was carried out centrally by the pharmacist using computer-generated random number tables. The treatment allocation was concealed from the investigators until 1 week before the administration of the study drug.
+
+Hematopoietic cell grafts were infused on day 0 (for bone marrow) or days 0 and 1 (for granulocytecolony stimulating factor [G-CSF] mobilized peripheral mononuclear cells) without T cell depletion. For the BuCy regimen, intravenous busulfan (3.2 mg/kg/day) was administered on days -7 to -4 and cyclophosphamide (60 mg/kg/day) on days -3 and -2. The time between the last dose of busulfan and the first dose of cyclophosphamide was 14 hours in the BU4 arm and 27 hours in the BU1 arm. For the BuFluATG regimen, we administered intravenous busulfan (3.2 mg/kg/day) for 2 days (days -7 and -6), fludarabine (30 mg/kg) for 6 days (days -7 to -2), and antithymocyte globulin on days -4 to -2 with a matched sibling donor and an unrelated donor or -4 to -1 with haplo-identical familial donor. For the Bu regimen, intravenous busulfan (3.2 mg/kg/day) was administered on days -6 to -3. All patients received an intravenous loading dose of phenytoin (15 mg/kg) the day before the first busulfan administration, and oral dosing was continued to maintain therapeutic levels (10 to 20 mg/L) until the day after the last dose of busulfan.
+
+Patients in the BU4 arm received iBu (0.8 mg/kg) every 6 h in 2 h infusions, while those in the BU1 arm received 3.2 mg/kg iBu every 24 h in 3 h infusions. Busulfan was diluted in normal saline to 0.5 mg/ml, and introduced using an infusion pump through a central venous catheter. Doses of busulfan were calculated using selected body weight (SBW) which was: (1) actual body weight (ABW) if less than or equal to ideal body weight (IBW), (2) IBW if ABW was more than IBW but within 120% of IBW or (3) Adjusted ideal body weight (AIBW)="IBW+0.40·(ABW-IBW)" if ABW exceeded IBW by more than 120% [14]. IBW was estimated using the following equation, measuring height in inches and weight in kilograms: (1) IBW (men)=50+2.3·(height-60) or (2) IBW (women)=45+2.3·(height-60) [15]. Venous blood samples (5 ml) were obtained from all patients at 5 time-points after the first dose of busulfan therapy using the limited sampling strategy adopted from a previous study [16]. Venous blood was drawn at 2.5, 3, 4, 5, and 6 h after the start of the infusion from patients in the BU4 arm, and at 3.5, 5, 6, 7 and 22 h after infusion from those in the BU1 arm. Samples were obtained via a peripheral venous catheter. One ml of blood was discarded before the collection of blood specimen and sterile 0.9% saline (1 ml) was injected into the catheter after each blood sampling procedure. The blood sample was introduced into pre-chilled heparin tubes, and within 30 minutes, plasma was separated by centrifugation at 1,286 G over 10 min at 4℃. Plasma samples were stored at -40℃ until analysis. The blood samples were analyzed for glutathione S-transferase (GST) genetic variants GSTM1 (null allele) and GSTT1 (null allele) as described by Arand et al. [17]. The protocol was approved by the Institutional Review Board (IRB) of the Asan Medical Center (IRB registration number 2004-068). All subjects gave their written informed consent before participating in the study.
+Measurement of plasma busulfan concentrations
+
+The plasma concentration of busulfan was measured by validated liquid chromatography with tandem mass spectrometry (LC-MS/MS) in a method similar to that described by dos Reis et al. [18] performed on an API 3000® triple quadruple mass spectrometer equipped with an electrospray ion source (MDS SCIEX, South San Francisco, CA, USA). An aliquot of the sample (20 µl) was delivered to the electrospray ion source using HPLC (Agilent 1100 series, Agilent Technologies Inc., Santa Clara, CA, USA) with a C18 Capcell Pak® MG column (2.0×50 mm, 3.0 µm particle size). The mobile phase comprised acetonitrile, tetrahydrofurane and distilled water (65:5:30). For validation procedures, plasma calibration curves, each comprising six levels of busulfan (30~6,000 ng/ml) and a fixed concentration of internal standard (metronidazole 500 ng/ml), were prepared and assayed. To assess the intra- and inter-day precision and accuracy of the method, five replicates of the plasma standards at three concentrations (40, 400 and 4,000 ng/ml) were analyzed. Calibration curves were linear throughout the concentration range of the study, with correlation coefficients greater than 0.998 for all cases. Based on a signal-to-noise level of 10, the quantification limit for busulfan was calculated as 30 ng/ml. The intra-day CV was ≤10.14%, and intra-day accuracy ranged from 94.10% to 107.80%, while the inter-day CV was ≤6.29%, with accuracy ranging from 95.59% to 101.44%. The bio-analysis was done at the Pharmacokinetics laboratory, Clinical Reseearch Center, Asan Medical Center (Seoul, Korea).
+
+Population pharmacokinetic analysis
+
+In total, 295 measurements from 60 patients were analyzed by mixed-effect modeling using NONMEM® (Version VI, GloboMax LLC, Ellicott City, MD, USA). The pharmacokinetic parameters were estimated with NONMEM subroutines ADVAN1 TRANS2, using the First Order Conditional Estimation with interaction (FOCEi) method. The parameters for a specific subject were described using the following equation:
+
+Pi=PTV×exp(ηi)
+where PTV is the typical value of the parameter, and ηi is a normally distributed variable with zero mean.
+
+The residual error model was characterized with the proportional error model described using the following equation:
+
+Cobs=Cpred+Cpred×ε
+where ε represents a zero-mean normally distributed variable.
+
+Various structural pharmacokinetic and error models were assessed, guided by the graphical assessment of optimum fit properties and statistical significance criteria. A likelihood ratio test was applied to discriminate between the reduced and full models at a significance level of p≤0.05, equivalent to a change of 3.84 in the objective function value. Standard diagnostic plots, including the observed values of the dependent variable (DV) versus individual predicted values (IPRE) and IPRE versus individual weighted residuals, were used for the diagnosis of optimum fit capabilities. Standard errors of parameter estimates of the pharmacokinetic model were employed as a diagnostic.
+
+Potential covariates affecting the clearance (CL) and volume of distribution (Vd) were explored. A regression model for each structural model parameter was constructed in three steps using the original dataset. Individual covariates were initially screened. The full model was defined as incorporating all significant covariates. The final model was elaborated by backward elimination from the full model. For each analysis, the improvement in fit obtained upon the addition of a covariate selected from step 2 to the base model was assessed by changes in the NONMEM® objective function value (OFV). To discriminate between the reduced and full models, a significance level of p≤0.05, equivalent to a change of 3.84 in the objective function value, was applied.
+
+In the first step, the following covariates for iBu pharmacokinetics were screened: sex, age, actual body weight (ABW), ideal body weight (IBW), adjusted ideal body weight (AIBW), selected body weight (SBW), height, body mass index (BMI), and body surface area (BSA) calculated from five different equations, serum creatinine, creatinine clearance, aspartate transaminase (AST), alanine transaminase (ALT), alkaline phosphatase (ALP), albumin, total bilirubin, and genetic polymorphisms in GSTM1 and GSTT1. Serum creatinine was measeured on the day of the study and creatinine clearance was estimated from serum creatinine using the Cockroft and Gault equation [19]. The following five different BSA equations were used to find out which would better correlate with pharmacokinetics of iBu:
+
+Mosteller [20] formula, BSA (m2)=((Height (cm)·Weight (kg))/3,600)½
+
+Du Bois and Du Bois [21] formula, BSA (m2)=0.20247·Height (m)0.725·Weight (kg)0.425
+
+Haycock et al. [22] formula, BSA (m2)=0.024265·Height (cm)0.3964·Weight (kg)0.5378
+
+Gehan and George [23] formula, BSA (m2)=0.0235·Height (cm)0.42246·Weight (kg)0.51456
+
+Boyd [24] formula, BSA (m2)=0.0003207·Height (cm)0.3·Weight (g)(0.7285-0.0188·log10(weight(g)).
+
+The distribution of empirical Bayesian parameter estimates was explored, and the relationships between covariates and individual pharmacokinetic parameter estimates evaluated. Data were subjected to a stepwise (single term addition/deletion) procedure using the generalized additive model (GAM) [25] in which Akaike's information criterion (AIC) [26] was applied for model selection.
+
+After the final covariate model was built, population shrinkage of interindividual random variability (η) was calculated as follows:
+
+Shrinkage
+=
+1
+−
+S
+D
+(
+η̂
+i
+)
+w
+Shrinkage=1-SDη̂iw
+Where ω is the estimate of inter-individual variability and SD(η̂i) represents the standard deviation of the empirical Bayesian estimate of η for each individual. Shrinkage is smaller when data are more informative.
+
+Random permutation tests [27] of 2,000 samples were performed to examine the statistical significance of the covariates. The tested covariate was considered significant if the OFV from the original data set was below the 2.5th percentile of OFVs from randomized datasets.
+
+Two thousand datasets were simulated from the final pharmacokinetic model using NONMEM VI, and the 95% prediction interval compared visually and numerically with actual plasma busulfan concentration data. The simulated datasets were re-fitted by the final model, and posterior distribution of the parameter estimates compared with the original final parameter estimates. The observed and simulated concentrations were compared visually using mirror plots. Bootstrapping, a resampling technique with replacement, was performed for the bias and stability of parameter estimates. In total, 2,000 bootstrap runs were performed, and 95% confidence intervals of the parameter estimates obtained as 2.5th and 97.5th percentiles from the resultant parameter distributions. Cook and weisberg [28] score and covariance ratio [29] were estimated to detect influential subjects.
+
+The modeling process was facilitated by Xpose® [26] (version 4.0) run on the R statistical software package (version 2.6.0, The R Foundation for Statistical Computing, Vienna, Austria, URL http://www.R-project.org) and Asan Software Tool for NONMEM, an interface for NONMEM® based on text editor and R.
+
+Determination of the dosage formula
+
+An equation for dose calculation on a once-daily basis was derived from the population estimate of iBu clearance and target AUC from time 0 to infinity (AUC0-inf). The median of AUC0-inf, evaluated by dividing the drug dose by individual busulfan clearance estimates from patients in the BU1 arm, was applied as the therapeutic target.
+
+Simulation
+
+Two datasets of 2,000 hypothetical patients were created using the Monte Carlo simulation, one using a 3.2·SBW mg q24h scheme, and the other with a newly proposed scheme based on the final population PK model. Busulfan concentration profiles were simulated assuming a single dose administration with the same plasma concentration measurement schedule as the BU1 arm. AUC0-inf values were generated from each simulated patient using clearance estimates. The probabilities of attaining an AUC0-inf range of target AUC0-inf±10% and ±20% were calculated.
+
+Go to:
+RESULTS
+Population pharmacokinetic analysis
+
+Plasma log-concentration versus time curves after iBu infusion disclosed a linear relationship (Fig. 1). A one-compartment model with exponential inter-individual variability and a proportional error model were optimal to describe the time-concentration curve. In terms of GAM analysis, ABW, sex, GSTM1, GSTT1, and total bilirubin were selected for CL, and ABW, sex, and ALP for Vd. The population model with covariates was built using the NONMEM® program on the basis of GAM analysis data. ABW was a predictor of both CL and Vd with an objective function value difference of more than 3.84 (p=0.05) between each model in which ABW was introduced alone and the basic model of each pharmacokinetic parameter without ABW. The best fit was obtained with CL and Vd modeled as power functions of ABW, and with Vd modeled with a sexual difference term. Initial estimation (standard error) of power terms for CL and Vd were 0.36 (2.56) and 0.48 (0.154). Simplified power model with the power terms fixed at 0.5 was fitted to the data and estimation of power terms as unknown parameters was found not to improve the model compared to fixing the power term. The final covariate model was as follows:
+
+ 
+Fig. 1 
+Observed individual busulfan concentration-time curves. Each individual are represented by the lines connecting circles.
+Click for larger image
+
+CL=(θ1·ABW0.5)·(exp(η1))
+
+Vd=(θ2·ABW0.5·(1+SEX·θ3))·(exp(η2))
+
+with CL presented in L/hr, ABW in kilograms, Vd in L and SEX coded as female=0 and male=1.
+
+Parameter estimates of the final covariate model are presented in Table 2.
+
+ 
+Table 2 
+Population parameter estimates for the final model
+Click for larger image
+
+Plots of observed versus predicted concentrations for the final covariate model are shown in Fig. 2. The shrinkage of η1 and η2 were 1% and 9%. A random permutation test showed that the 2.5th percentiles of OFVs from randomized datasets for ABW and sex exceeded the OFVs from the original dataset, confirming that ABW and sex are significant covariates. The 5th and 95th percentiles (prediction intervals) of simulated dose-normalized concentrations were calculated and plotted against the observed concentrations (Fig. 3). The model predicted the simulated concentrations fairly accurately, but the observed concentrations were slightly more variable. A numerical predictive check was performed to evaluate the stability of the final model. For each observation, 2,000 predictions were generated, and the corresponding 50%, 90%, and 95% prediction intervals defined. Ideally, 25%, 5%, and 2.5% of the observations would be above and below the 50%, 90%, and 95% prediction intervals, respectively. Out of the 295 observed busulfan concentrations, 2.72%, 5.70%, and 25.85% were above, and 1.70%, 5.78%, and 22.79% were below prediction intervals respectively. Two thousand datasets were simulated using the estimated parameters and the final covariate model, and each dataset was re-fitted using the final covariate model. In a posterior predictive check, posterior distributions of parameters derived from the simulated datasets were evaluated. Distribution patterns of pharmacokinetic parameters from a single run with the original dataset were comparable to those of parameters derived by fitting the final covariate model to simulated datasets. Simulated datasets were compared visually with the original dataset. Dispersion patterns around the lowess lines were similar between the original observations and simulated concentrations. The final population pharmacokinetic model obtained from the previous step was fitted repeatedly to 2,000 bootstrapped samples. In all runs, the minimization and covariance steps were successful. The parameter estimates of the final model using the original data and the mean parameter estimates from the 2,000 bootstrap replicates are presented in Table 3. The mean bootstrap parameter estimates were within 1% of those obtained with the original dataset. Case deletion diagnostics revealed that no individual had a high Cook score together with a low covariance ratio (<0.5), indicative of an influential subject.
+
+ 
+Fig. 2 
+Goodness-of-fit diagnostic plots for the final model. For the upper two panels, the solid line is a line of identity and the thick solid line is a loess smooth. For the lower two panels, the thick solid line is a loess smooth. iWRES, individual weighted residuals, i.e. weighted difference between the observations and individual predictions.
+Click for larger image
+
+ 
+Fig. 3 
+Visual predictive check for BU4 arm (left) and BU1 arm (right). Simulated 95% prediction interval is shaded.
+Click for larger image
+
+ 
+Table 3 
+Bootstrap (2,000 replicates) parameter estimates for the final model
+Click for larger image
+
+Determination of the dosage formula
+
+The known therapeutic window for 4 times daily oral busulfan, AUC0-6 target of 900~1,500 mol/l·min [4-7], is not applicable for once-daily administration of iBu. The median AUC0-inf after the first dose of the 4 times daily regimen of iBu was 1,481 mol/l·min, comparable to target AUC0-6 of 1,200 mol/l·min. Since the pharmacokinetic profiles and post-transplant complications were similar for the BU1 and BU4 arms in this study [12], the median AUC0-inf of patients in the BU1 arm, 6,378 mol/l·min (=26.18 mg/l·hr), was used as the therapeutic target. Based on the CL estimate of 0.947 l/hr ·ABW0.5, the appropriate dose to achieve target AUC0-inf was calculated as CL·AUC0-inf=24.79·ABW0.5 mg q24h. ABW is measured in kilograms.
+
+Simulation
+
+Two datasets of 2,000 hypothetical patients were created using a Monte Carlo simulation, one with a 3.2·SBW mg q24h scheme, and the other with a proposed scheme of 24.79·ABW0.5 mg q24h. The probabilities of attaining a AUC0-inf range of target AUC0-inf±10% (23.56~28.80 mg/l·hr) and ±20% (20.94~31.42 mg/l·hr) were 69.2% and 96.9% with the conventional scheme, and 89.1% and 99.5% with the new scheme, respectively.
+
+Go to:
+DISCUSSION
+Intravenous busulfan (iBu) was introduced as a conditioning regimen for stem cell transplantation with the advantages of reduced inter-individual PK variability and bypass of first-pass effects compared to oral form of busulfan, resulting in a lower incidence of fatal veno-occlusive disease.
+
+The objectives of this study were to characterize the population pharmacokinetics of iBu, identifying covariates that influence iBu pharmacokinetics with a view to establishing a novel dosage scheme. The one-compartment model with a proportional error was selected as the population model. The mean parameter estimates obtained from 2,000 bootstrap replicates of runs were similar to those from a single run using original data with a difference of less than 1%, thus confirming the reliability of the final model.
+
+ABW was a covariate of both CL and Vd, and sex was a covariate of Vd, as confirmed with the random permutation test. In previous studies, AIBW, BSA, or ABW were reported as possible covariates of iBu CL and V [14, 30]. CL and Vd of iBu estimated for a typical 65 kg patient in ABW and 1.7 m2 in BSA were 10.1 l/h and 56.6 l [30] and 9.7 l/h and 34.6 l [31], comparable to our results. The IIV values for CL and Vd following iBu in adult patients were reported as 16% and 13% by Nguyen et al. [30], and 13.6% and 6.3% by Takama et al. [32]. In the present study, IIV for CL was 16%, while that for Vd was 9%, based on the final population model. Furthermore, the 90% confidence intervals on CL and Vd estimates were both within 10% of the mean population estimates. Variability in the pharmacokinetics of busulfan has been reported to be more significant upon daily oral administration. The IIV value of CL following oral administration of busulfan in pediatric and adult population was reported as 28% by Sandström et al. [33] and 26% in a pediatric study by Schiltmeyer et al. [34], while those for CL and Vd following iBu treatment of pediatric patients were recorded as 23% and 11% by Booth et al. [31]. It remains unclear whether the difference in apparent clearance between the different individuals after oral busulfan results from either a true difference in enzyme metabolism activities of the liver [35] (intrinsic clearance) and/or from a modification in the drug absorption process [14, 36]. Although there is similarity between the PK of oral and intravenous busulfan [1], by skipping the absorption process and escaping drug loss through vomiting, iBu may provide a reduced inter- and the intra-patient variabilities.
+
+The literature to date shows that alterations in liver function may affect the elimination of oral busulfan [10, 33]. In our study, neither ALP nor ALT affected the total body clearance of iBu. Elevated serum creatinine or low creatinine clearance was not correlated with total CL after iBu as expected, since renal elimination of busulfan was limited [2, 3].
+
+Monte Carlo simulation of the busulfan concentration using the final population pharmacokinetic model indicates that the newly proposed dosage scheme of 24.79·ABW0.5 mg q24h, ABW in kilograms, may be superior to the conventional scheme, in which dose calculation is based on SBW, in attaining target AUC0-inf. In addition, the simplicity of dose calculation with our newly suggested scheme which uses ABW only instead of choosing among three different body size measures in regard to obesity levels offers an advantage over the conventional scheme. Lack of external validation of the dosage scheme by a prospective study, however, remains a limitation of this study.
+
+The 4 times daily oral regimen was initially employed since the bulky amounts required for oral administration and absorption issues made the once-daily dosage impossible. After the development of an intravenous formulation, it is expected that the once-daily dose regimen will replace the 4 times daily treatment. Additionally, the once-daily dose has been reported to be equivalent to the 4 times daily regimen in terms of efficacy and safety profile [12].
+
+Population pharmacokinetic analysis of iBu in adult Korean patients suggests that the inter-individual variabilities of CL and Vd for iBu were small. A new simple dosage scheme, calculated as 24.79·ABW0.5 mg q24h for 4 days, ABW in kilograms, is proposed.
+
+Go to:
+ABBREVIATIONS
+iBU	intravenous busulfan
+CL	clearance
+Vd	volume of distribution
+AUC0-6	area under concentration versus time curve from 0 to 6 h
+AUC0-inf	area under concentration versus time curve from 0 to infinity
+BU4 arm	4 times daily iBu×4 days
+BU1 arm	once-daily iBu×4 days
+ABW	actual body weight
+IBW	ideal body weight
+AIBW	adjusted ideal body weight
+SBW	selected body weight
+GST	glutathion S-tranferase
+IRB	institutional review board
+DV	dependent variable
+IPRE	individual predicted values
+OFV	objective function value
+BMI	body mass index
+BSA	body surface are
+AST	aspartate transaminase
+ALT	alanine transaminase
+ALP	alkaline phosphatase
+GAM	generalized additive model
+AIC	Akaike's information criterion
