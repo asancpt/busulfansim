@@ -1,9 +1,9 @@
 Package: busulfansim
 Title: Simulation of Plasma Busulfan Concentrations by Using Population Pharmacokinetic Model
-Version: 0.2.2
-Date: 2017-08-22
+Version: 0.1.0
+Date: 2017-09-28
 Authors@R: person("Sungpil", "Han", email = "shan@acp.kr", role = c("aut", "cre"))
-Description: Simulate plasma busulfan concentrations using population pharmacokinetic model described in Lee, Kim, Perera, McLachlan and Bae (2015) <doi:10.1007/s00431-015-2581-x>.
+Description: Simulate plasma busulfan concentrations using population pharmacokinetic model described in Choe, Kim, Lim, Cho, Ghim, Jung, Kim, Noh, Bae and Lee (2012) <doi:10.4196/kjpp.2012.16.4.273>.
 Depends:
     R (>= 3.3.2)
 Encoding: UTF-8
@@ -16,4 +16,3 @@ URL: https://github.com/asancpt/bsfnsim
 BugReports: https://github.com/asancpt/bsfnsim/issues
 RoxygenNote: 6.0.1
 Maintainer: Sungpil Han <shan@acp.kr>
-
