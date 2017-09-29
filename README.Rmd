@@ -15,7 +15,8 @@ knitr::opts_chunk$set(fig.width=8, fig.height=4, dev = 'png', dpi = 150,
                       results = 'asis')
 ```
 
-# `busulfansim` R package: `r packageDescription('busulfansim', fields = 'Title')`
+`busulfansim` R package: `r packageDescription('busulfansim', fields = 'Title')` <img src="inst/busulfansim.png" align="right" / width="30%" />
+========================================================
 
 ![CRAN downloads](http://cranlogs.r-pkg.org/badges/grand-total/busulfansim)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/busulfansim)](https://cran.r-project.org/package=busulfansim)
