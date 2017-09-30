@@ -1,15 +1,24 @@
 # setup ----
+library(tidyverse)
+
+tv <- list(cl = 7.6, malev = 32.2, femalev = 29.1)
+tv
+
+theta <- list(t1 = tv$cl / sqrt(65),
+              t2 = tv$femalev / sqrt(65),
+              t3 = tv$malev / (tv$femalev / sqrt(65) * sqrt(65)) - 1)
+theta
 
 library(tidyverse)
 
-BsfnSigma <- matrix(c(0.1599, 6.095e-2, 9.650e-2, 
-                      6.095e-2, 4.746e-2, 1.359e-2, 
-                      9.650e-2, 1.359e-2, 1.004), nrow = 3)
-BsfnMu <- c(0,0,0)
+# 2x2 matrix
+BsfnSigma <- matrix(c(0.16, 0.063,
+                      0.063, 0.09), 
+                    byrow = TRUE, 
+                    nrow = 2) %>% 
+  print()
 
-theta <- list()
-theta$t1 <- 1
-theta$t2 <- 2
+BsfnMu <- c(0, 0)
 
 UnitTable <- tribble(~Parameters, ~Parameter,
                      "Tmax","T~max~ (hr)",

@@ -13,18 +13,22 @@
 #' @import dplyr
 #' @seealso \url{https://asancpt.github.io/bsfnsim}
 
-bsfnConcTime <- function(Weight, Dose, N = 20){
-  ggConc <- bsfnPkparam(Weight, Dose, N) %>% 
-    select(CL, V, Ka, Ke) %>% 
-    mutate(Subject = row_number()) %>% 
-    left_join(expand.grid(
-      x = seq(1, N, length.out = N),  #Subjecti
-      y = seq(0,24, by = 0.1)) %>% # Time
-        select(Subject=x, Time=y), by = "Subject") %>% 
-    mutate(Conc = Dose / V * Ka / (Ka - Ke) * (exp(-Ke * Time) - exp(-Ka * Time))) %>% 
-    select(Subject, Time, Conc)
-  return(ggConc)
+bsfnConcTime <- function(Weight=60, rate = 100, dur = 3, sex = 'male', N = 20){
+  concData <- bsfnPkparam(Weight, rate, dur, sex, N) %>% 
+    left_join(expand.grid(subjid = seq(1, N, length.out = N),
+                          Time = seq(0,24, by = 0.1)), by = "subjid") %>%
+    mutate(Conc = ifelse(test = Time >= dur,
+                         # after infusion
+                         yes = rate * (V * lambda) * (1 - exp(-lambda * dur)) * exp(-lambda * (Time - dur)),
+                         # before infusion
+                         no = rate * (V * lambda) * (1 - exp(-lambda * Time)) )) %>%
+    select(subjid, Time, Conc)
+  return(concData)
 }
+# bsfnConcTime(sex = 'male')
+# bsfnConcTime(sex = 'female')
+# test : ggplot(bsfnConcTime(), aes(x=Time, y=Conc, group = subjid)) + geom_line()
+# test : ggplot(bsfnConcTime(), aes(x=Time, y=Conc, group = subjid)) + geom_line() + scale_y_log10()
 
 #' Create a dataset of the concentration-time curve of multiple dosing of busulfan
 #'
@@ -44,7 +48,7 @@ bsfnConcTime <- function(Weight, Dose, N = 20){
 #' @seealso \url{https://asancpt.github.io/bsfnsim}
 
 bsfnConcTimeMulti <- function(Weight, Dose, N = 20, Tau = 8, Repeat = 4){
-#Weight=20; Dose=300; N = 20; Tau = 8; Repeat = 4
+  #Weight=20; Dose=300; N = 20; Tau = 8; Repeat = 4
   
   Subject <- seq(1, N, length.out = N) # 
   Time <- seq(0, 96, by = 0.1) # 

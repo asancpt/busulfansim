@@ -15,22 +15,24 @@
 #' @import tibble
 #' @seealso \url{https://asancpt.github.io/bsfnsim}
 
-bsfnPkparam <- function(Weight, Dose, N = 20){
-  mgcv::rmvn(N, BsfnMu, BsfnSigma) %>% 
+bsfnPkparam <- function(Weight=30, rate = 100, dur = 3, sex = 'male', N = 20){
+  mgcv::rmvn(n = N, mu = BsfnMu, V = BsfnSigma) %>% # MVN: positive semi definite covariance matrix
     as_tibble() %>% 
-    select(eta1 = 1, eta2 = 2, eta3 = 3) %>% 
-    mutate(CL = theta$t1 * Weight * exp(eta1), # L/hr
-           V  = theta$t2 * Weight * exp(eta2), 
-           # TVV =THETA[2] * (1 + ABST*THETA[7]) [1] 0.7218775
-           Ka = 4.268 * exp(eta3), # /hr
-           Ke = CL / V,
-           Tmax = (log(Ka) - log(Ke)) / (Ka - Ke),
-           Cmax = Dose / V * Ka / (Ka - Ke) * (exp(-Ke * Tmax) - exp(-Ka * Tmax)), 
-           AUC  = Dose / CL, # mg/h/L
-           Half_life = 0.693 / Ke) %>% 
-    mutate(subjid = row_number()) %>% 
-    select(subjid, Tmax, Cmax, AUC, Half_life, CL, V, Ka, Ke)
+    select(eta1 = 1, eta2 = 2) %>% 
+    mutate(CL = theta$t1 * sqrt(Weight) * exp(eta1), # L/hr
+           V  = theta$t2 * sqrt(Weight) * ifelse(sex == 'male', 1 + theta$t3, 1) * exp(eta2), # L
+           lambda = CL / V, # k
+           Css = rate / CL, # steady state plasma conc
+           Half_life = 0.693 / lambda) %>% 
+    mutate(subjid = row_number())
 }
+# bsfnPkparam()
+           #Tmax = (log(Ka) - log(Ke)) / (Ka - Ke),
+           #Cmax = Dose / V * Ka / (Ka - Ke) * (exp(-Ke * Tmax) - exp(-Ka * Tmax)), 
+           #AUC  = Dose / CL, # mg/h/L
+
+# CL & V are known, C=1/V, lambda = CL/V
+
 
 #' Create a dataset for simulation of multiple dose of busulfan 
 #'
